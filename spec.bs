@@ -31,6 +31,15 @@ Boilerplate: omit conformance, omit copyright, omit feedback-header
 }
 </pre>
 
+<div class="advisement">
+<strong>Prototype — partial rendering.</strong>
+This page is a <a href="https://github.com/adobe/spectrum-design-data/issues/1006">Bikeshed evaluation prototype</a>
+for <a href="https://github.com/adobe/spectrum-design-data">adobe/spectrum-design-data</a>.
+It renders five chapters only: Overview, Token format, Taxonomy, Agent-readable surface, and a Rules excerpt.
+The canonical multi-page spec and all normative sibling documents live at
+<a href="https://github.com/adobe/spectrum-design-data/tree/main/packages/design-data-spec/spec">adobe/spectrum-design-data</a>.
+</div>
+
 <pre class=include>
 path: chapters-processed/index.md
 </pre>

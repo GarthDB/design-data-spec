@@ -98,7 +98,7 @@ The table below lists all semantic fields. Fields marked with a scope are domain
 
 ### Alias (`$ref`)
 
-When **`$ref`** is present, the [=token=] is an <dfn export>alias</dfn>. The [=value=] **MUST** be a non-empty string interpreted as a **token path** or **stable identifier** resolvable by the validator (resolution rules are Layer 2; see rule `SPEC-001` in `rules/rules.yaml`).
+When **`$ref`** is present, the [=token=] is an <dfn export>alias</dfn>. The **`$ref`** string **MUST** be a non-empty string interpreted as a **token path** or **stable identifier** resolvable by the validator (resolution rules are Layer 2; see rule `SPEC-001` in `rules/rules.yaml`).
 
 ### Literal `value`
 
