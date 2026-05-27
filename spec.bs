@@ -32,21 +32,21 @@ Boilerplate: omit conformance, omit copyright, omit feedback-header
 </pre>
 
 <pre class=include>
-path: chapters/index.md
+path: chapters-processed/index.md
 </pre>
 
 <pre class=include>
-path: chapters/token-format.md
+path: chapters-processed/token-format.md
 </pre>
 
 <pre class=include>
-path: chapters/taxonomy.md
+path: chapters-processed/taxonomy.md
 </pre>
 
 <pre class=include>
-path: chapters/agent-surface.md
+path: chapters-processed/agent-surface.md
 </pre>
 
 <pre class=include>
-path: chapters/rules-excerpt.md
+path: chapters-processed/rules-excerpt.md
 </pre>

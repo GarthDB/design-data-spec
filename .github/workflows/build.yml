@@ -28,6 +28,7 @@ jobs:
         run: |
           pip install bikeshed
           bikeshed update
+          python3 scripts/preprocess.py
           mkdir -p out
           bikeshed spec spec.bs out/index.html
 
