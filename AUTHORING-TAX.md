@@ -20,7 +20,17 @@ to Bikeshed autolink markup:
 
 ## Friction points encountered
 
-1. **Nested list items needed 4-space indentation**, not 3 (Bikeshed markdown parser
+1. **GFM pipe tables not supported** (CRITICAL). Bikeshed's `Markup Shorthands:
+   markdown yes` does NOT include GFM pipe table support — confirmed by inspecting
+   `bikeshed/markdown/markdown.py`. All ~130 table rows across the 4 chapters were
+   rendered as raw `| ... |` text inside `<p>` tags.
+   **Workaround**: `scripts/preprocess.py` converts pipe tables to `<table class=data>`
+   HTML before Bikeshed processes the files. This is a mandatory build step; without it
+   the spec is unreadable.
+   **Migration cost**: All existing GFM tables must either (a) go through this
+   preprocessor permanently, or (b) be manually rewritten as HTML tables.
+
+2. **Nested list items needed 4-space indentation**, not 3 (Bikeshed markdown parser
    requirement). Lines 17–18 of token-format.md had `   * ...` (3-space) which caused
    fatal build errors. Changed to `    * ...` (4-space). This is a global compatibility
    risk: every markdown file must be audited for 3-space sub-lists.
