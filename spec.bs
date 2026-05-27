@@ -1,0 +1,52 @@
+<!-- Copyright 2026 Adobe. All rights reserved.
+     Licensed under the Apache License, Version 2.0 -->
+<pre class='metadata'>
+Title: Spectrum Design Data Specification (Bikeshed Prototype)
+Shortname: spectrum-design-data
+Level: 1
+Status: LD
+URL: https://garthdb.com/design-data-spec/
+Editor: Garth Braithwaite, Adobe https://www.adobe.com, garthdb@adobe.com
+Abstract: Prototype rendering of the Spectrum Design Data spec using Bikeshed.
+         Evaluation prototype for adobe/spectrum-design-data#1006.
+         The canonical specification lives in the adobe/spectrum-design-data repository.
+Markup Shorthands: markdown yes, css no
+Boilerplate: omit conformance, omit copyright, omit feedback-header
+</pre>
+
+<pre class=biblio>
+{
+  "SEMVER": {
+    "title": "Semantic Versioning 2.0.0",
+    "href": "https://semver.org/spec/v2.0.0.html",
+    "authors": ["Tom Preston-Werner"],
+    "status": "Informal"
+  },
+  "DISC735": {
+    "title": "Discussion #735 — Versioning and Evolution",
+    "href": "https://github.com/adobe/spectrum-design-data/discussions/735",
+    "authors": ["Garth Braithwaite"],
+    "status": "Informal"
+  }
+}
+</pre>
+
+<pre class=include>
+path: chapters/index.md
+</pre>
+
+<pre class=include>
+path: chapters/token-format.md
+</pre>
+
+<pre class=include>
+path: chapters/taxonomy.md
+</pre>
+
+<pre class=include>
+path: chapters/agent-surface.md
+</pre>
+
+<pre class=include>
+path: chapters/rules-excerpt.md
+</pre>

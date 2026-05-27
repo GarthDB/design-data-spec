@@ -1,0 +1,7 @@
+out/
+__pycache__/
+*.pyc
+.bikeshed/
+bikeshed.db
+.venv/
+venv/
